@@ -1,18 +1,18 @@
 services:
   - type: web
-    name: n8n
+    name: my-n8n-newsletter
     env: node
     plan: free
-    buildCommand: "npm install"
-    startCommand: "n8n start"
+    buildCommand: npm install
+    startCommand: n8n start
     envVars:
       - key: N8N_HOST
-        value: n8n.onrender.com # Replace with your actual Render URL *after* deployment
+        value: my-n8n-newsletter.onrender.com
       - key: N8N_PORT
         value: 80
       - key: N8N_PROTOCOL
         value: https
       - key: GENERIC_TIMEZONE
-        value: UTC
+        value: America/New_York
       - key: N8N_ENCRYPTION_KEY
         generateValue: true
