@@ -1,0 +1,18 @@
+{
+  "name": "my-n8n-server",
+  "version": "1.0.0",
+  "description": "n8n workflow automation server on Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "n8n start"
+  },
+  "dependencies": {
+    "n8n": "^1.0.0" // Use the latest version from https://www.npmjs.com/package/n8n
+  },
+  "engines": {
+    "node": ">=18.10"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
