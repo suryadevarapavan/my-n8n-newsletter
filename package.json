@@ -1,18 +1,18 @@
 {
-  "name": "my-n8n-server",
+  "name": "my-n8n-newsletter",
   "version": "1.0.0",
-  "description": "n8n workflow automation server on Render",
+  "description": "Free AI Newsletter Agent with n8n",
   "main": "index.js",
   "scripts": {
     "start": "n8n start"
   },
   "dependencies": {
-    "n8n": "^1.0.0" // Use the latest version from https://www.npmjs.com/package/n8n
+    "n8n": "^1.40.1"
   },
   "engines": {
-    "node": ">=18.10"
+    "node": ">=18.0.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["n8n", "newsletter", "automation"],
+  "author": "You",
+  "license": "MIT"
 }
